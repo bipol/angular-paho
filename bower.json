@@ -1,0 +1,27 @@
+{
+  "name": "angular-paho",
+  "authors": [
+    "Bipol Alam <balam@ispatechnology.com>"
+  ],
+  "description": "paho directive for angular",
+  "main": "angular-paho.js",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "paho",
+    "mqtt",
+    "directive"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paho-mqtt-js": "^1.0.1"
+  }
+}

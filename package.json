@@ -1,0 +1,14 @@
+{
+  "name": "angular-paho",
+  "version": "1.0.0",
+  "description": "angular directive for paho",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bipol Alam <balam@ispatechnology.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}
