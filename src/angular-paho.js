@@ -75,6 +75,11 @@
       // create the client and callbacks
       client._client = new Paho.MQTT.Client(client._location, Number(client._port), client._id);
       client._client.onConnectionLost = onConnectionLost;
+      client._client.onMessageArrived = onMessageArrived;
+    }
+
+    function onMessageArrived(message) {
+      console.log("onMessageArrived:"+message.payloadString);
     }
 
     function send(message) {
