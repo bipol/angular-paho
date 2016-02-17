@@ -4,7 +4,7 @@
     "Bipol Alam <balam@ispatechnology.com>"
   ],
   "description": "paho directive for angular",
-  "main": "angular-paho.js",
+  "main": "dist/angular-paho.js",
   "moduleType": [],
   "keywords": [
     "angular",
@@ -17,6 +17,12 @@
   "ignore": [
     "**/.*",
     "node_modules",
+    "LICENSE",
+    "webserver.js",
+    "index.js",
+    "package.json",
+    "README.md",
+    "src",
     "bower_components",
     "test",
     "tests"
